@@ -1,0 +1,21 @@
+int i=0;
+fun(){
+char a="Naveen";
+
+if(i<10){
+printf("%c",a);
+i++;
+fun();
+}
+
+
+
+fun(int n){
+if(n=0)
+printf("Naveen");
+else
+return n*fun(n-1);
+}
+
+
+
